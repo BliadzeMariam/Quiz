@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container d-flex align-item-center justify-content-center ">
+        <div class="row">
+
+            <form action="" class="form-control mycard col-lg-12 p-5">
+                <h3 class=" uptxt">Choose a Category</h3>
+                <select name="level" class="form-select sel" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">Questions - First Level</option>
+                </select>
+
+                <button class="btn " type="submit">Enter</button>
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="container  answers d-none">
+        <div class="row">
+            <div class="col-lg-12 mx-auto quiz" id="quiz">
+                <div class="quizheader" id="header">
+                </div>
+                <ul class="quiz-list" id="list">
+
+                </ul>
+                <button class="quiz-submit submit" id="submit">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

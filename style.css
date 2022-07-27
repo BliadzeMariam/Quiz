@@ -1,0 +1,111 @@
+
+body{
+  background-image: linear-gradient(to right, #e276e4, #ff70b7, #ff8287, #ffa360, #ffc64e, #f0d94f, #dceb5a, #c2fc6f, #9afc8b, #71faa7, #45f6c1, #00f1d8);  font-family: GochiHand;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.mycard{
+  background-color: #ffffff;
+  color:rgb(56, 56, 56) ;
+  border: none;
+  border-radius: 7px;
+  width: 550px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.quiz{
+  padding-top: 25px;
+  background-color: #ffffff;
+  color:rgb(56, 56, 56) ;
+  border: none;
+  width: 550px;
+  height: 500px;
+  font-size: 17px;
+  border-radius: 7px;
+  overflow: hidden;
+
+}
+
+.w-100{
+  display: block;
+  width: auto;
+  height: 165px;
+  border-radius: 7px;
+  object-fit: contain;
+}
+
+
+.quiz-list label {
+	cursor: pointer;
+	width: 100%;
+  display: block;
+	padding: 8px 4px;
+}
+
+.quiz-list label:hover {
+	background-color: rgb(130, 223, 240);
+}
+.uptxt {
+  padding: 80px 0 10px 0;
+}
+.sel{
+  background-color: #f264f5;
+  border: none;
+}
+
+.btn, .submit{
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  background-color: rgb(168, 8, 168);
+  outline: none;
+  border: none;
+  height: 37px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+
+.btn:hover, .submit:hover{
+  border: none;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+  color: rgb(56, 56, 56);
+}
+
+.title{
+	font-size: 24px;
+	padding: 16px 0;
+	text-align: center;
+	margin: 0;
+}
+
+.summary {
+	text-align: center;
+	margin: 8px 0 16px;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.result {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 700;
+}
+.quiz-list {
+	list-style-type: none;
+	
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
